@@ -39,7 +39,7 @@ def upload(filename, wikifilename, sourceurl, fileurl, filedesc, username,
             statuscallback('Upload success!', 100)
             return page.title(withNamespace=False), page.full_url()
         else:
-            errorcallback('Upload failed! You may want to upload the file manually from <a href="%s">%s</s>' % (fileurl, fileurl))
+            errorcallback('Upload failed! You may want to upload the file manually from <a href="%s">%s</a>' % (fileurl, fileurl))
 
     else:
         # Source: videoconverter tool
