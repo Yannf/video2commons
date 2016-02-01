@@ -53,5 +53,5 @@ Thank you!""" % (wikifilename, fileurl,
         import urllib
         phaburl = 'https://phabricator.wikimedia.org/maniphest/task/create/?title=Please%20upload%20large%20file%20to%20Wikimedia%20Commons&projects=Wikimedia-Site-requests,commons&description=' + \
             urllib.quote(phabdesc)
-        errorcallback('File too large to upload directly! You may want to <a href="%s">request a server-side upload</s>' % (phaburl))
+        errorcallback('File too large to upload directly! You may want to <a href="%s">request a server-side upload</a>' % (phaburl))
 
